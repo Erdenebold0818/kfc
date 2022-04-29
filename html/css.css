@@ -1,3 +1,47 @@
 :root{
-    
+    --kfc-ongo-ulaan: red;
+--kfc-ongo-har:black;
+--kfc-ongo-saaral: blue;
+--kfc-ongo-tsagaan: white;
+--kfc-ongo-nogoon: green;
+--kfc-size-log-hemje: 100px;
+header{
 }
+}
+/*stikcy bolod uldeh deerh shiljdeg heseg ynzlah*/
+.head_menu{
+    display: flex;
+    flex-direction: row;
+    background-color: var(--kfc-ongo-tsagaan);   
+}
+
+a{
+}
+/*nuuren deer bga zurag daraan oorchloh style nemeh zurag soligddog bolgoh*/
+.zurag_reklam{
+    width: 100vw;
+    height: 60vh;
+}
+/*buteegdehuun burru shiljdeg menu iin bichdeg garchig*/
+.main_garchig{
+    size: var(--kfc-size-log-hemje);
+}
+/*buteegdehuunii torol boloh nav elemnttei bagts */
+.product_menu{
+    display: flex;
+    flex-direction: row;
+}
+/*menu tus buriin size bolon hover hiih*/
+.moduleOfProductMenu{
+
+}
+/*buteegdehuuni zurag hemjee ni aguulj bui div iin height iin kub baih*/
+.img_of_menu{
+    width: 40px;
+    height: 40px;
+}
+/* buteegdehuuni angilal boloh ner */
+.nameOfMenu{
+size: 10px;
+}
+/**/
